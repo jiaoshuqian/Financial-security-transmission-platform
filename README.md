@@ -47,14 +47,9 @@ Complex to say: to solve the security key distribution, high concurrency cryptog
    2.5 Solution subsystem demonstration
        2.5.1 linux Platform SecMngServer and SecMngClient
            SecMngServer
-   
-               <img width="415" alt="image" src="https://github.com/user-attachments/assets/681f0fb0-356a-428f-a5f5-43eb6940812f" />
+   <img width="415" alt="image" src="https://github.com/user-attachments/assets/f85131a8-2673-49f6-9bfb-37c72a8d147d" />
+            
 
-           SecMngClient
-
-               <img width="416" alt="image" src="https://github.com/user-attachments/assets/e5cc8855-88b0-491d-b328-3549076c3750" />
-
-       2.5.2
 
 
 
