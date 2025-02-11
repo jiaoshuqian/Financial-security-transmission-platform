@@ -34,10 +34,32 @@ Complex to say: to solve the security key distribution, high concurrency cryptog
     ![image](https://github.com/user-attachments/assets/0ecf8b98-8e99-4cb4-8fc2-91b037967f38)
 
    1) Install the database and deploy the sql script scheme of the secure transmission platform
-2) Key negotiation server configuration terminal SecMngServerAdmin, add network information, and configure background server startup parameters
-3) Start the background service program of Key negotiation server (SecMngServer)
-4) Start the key negotiation client program (SecMngClinet) to initiate key negotiation
-5) Third-party information system, through the external interface (AppInterface), encryption and decryption
+   2) Key negotiation server configuration terminal SecMngServerAdmin, add network information, and configure background server startup
+      parameters
+   3) Start the background service program of Key negotiation server (SecMngServer)
+   4) Start the key negotiation client program (SecMngClinet) to initiate key negotiation
+   5) Third-party information system, through the external interface (AppInterface), encryption and decryption
+  
+   2.4 Scheme subsystem
+
+   <img width="416" alt="image" src="https://github.com/user-attachments/assets/f0d93621-2661-4745-9049-244182ee3d2c" />
+
+   2.5 Solution subsystem demonstration
+       2.5.1 linux Platform SecMngServer and SecMngClient
+           SecMngServer
+   
+               <img width="415" alt="image" src="https://github.com/user-attachments/assets/681f0fb0-356a-428f-a5f5-43eb6940812f" />
+
+           SecMngClient
+
+               <img width="416" alt="image" src="https://github.com/user-attachments/assets/e5cc8855-88b0-491d-b328-3549076c3750" />
+
+       2.5.2
+
+
+
+
+
 
 
 
