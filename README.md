@@ -15,5 +15,5 @@ Complex to say: to solve the security key distribution, high concurrency cryptog
    3) AppInterface and key negotiation software client (SecMngKeyClinet) are deployed on hardware servers of Guangzhou branch.
    4) Key negotiation software client software is the Win platform, linux platform program; Heterogeneous communication.
    5) Network applications are encrypted and decrypted through the AppInterface.
-   ————————
+   ————————The outgoing Interface is encapsulated in the Interface folder, and the key negotiation program is in the SecClient and SecServer
 
