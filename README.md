@@ -15,5 +15,29 @@ Complex to say: to solve the security key distribution, high concurrency cryptog
    3) AppInterface and key negotiation software client (SecMngKeyClinet) are deployed on hardware servers of Guangzhou branch.
    4) Key negotiation software client software is the Win platform, linux platform program; Heterogeneous communication.
    5) Network applications are encrypted and decrypted through the AppInterface.
-   ————————The outgoing Interface is encapsulated in the Interface folder, and the key negotiation program is in the SecClient and SecServer
+   
+   ————————The outgoing Interface is encapsulated in the Interface folder, and the key negotiation program is in the ClientSecKey and ServerSecKey
+
+   2.2 Scheme introduction
+
+   <img width="415" alt="image" src="https://github.com/user-attachments/assets/0269b80e-3053-45f2-a7d5-28eefe724b44" />
+
+   1) Third-party applications encrypt and decrypt data through the external interface.
+   2) The outgoing interface searches the node key through the shared memory.
+   3) The key negotiation server negotiates the key with the key negotiation client and writes the key to the shared memory. The key
+             negotiation client can be an application on the linux or win platform.
+   4) Key negotiation server configuration terminal (SecMngAdmin) manages access network applications to complete network lifecycle
+            management; The Key Agreement Server Configuration Terminal (SecMngAdmin) can perform historical key management, audit management, and more.
+
+   2.3 Scheme flow
+
+    ![image](https://github.com/user-attachments/assets/0ecf8b98-8e99-4cb4-8fc2-91b037967f38)
+
+   1) Install the database and deploy the sql script scheme of the secure transmission platform
+2) Key negotiation server configuration terminal SecMngServerAdmin, add network information, and configure background server startup parameters
+3) Start the background service program of Key negotiation server (SecMngServer)
+4) Start the key negotiation client program (SecMngClinet) to initiate key negotiation
+5) Third-party information system, through the external interface (AppInterface), encryption and decryption
+
+
 
