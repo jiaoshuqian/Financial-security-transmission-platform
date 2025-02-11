@@ -128,28 +128,35 @@ Complex to say: to solve the security key distribution, high concurrency cryptog
   3.2.2 Managing the Terminal Using SecMngServerAdmin
 
   3.2.3 Deploying the SecMngServer
-      Example Create user user01
-      Uploading a tar Package
-      Configure user environment variables
-      Test database environment
-      Note: For this application, serverid 0001 clientid1111 is the default
-      Startup server
-      Shut down the server
-      View the system shared memory
+  
+  Example Create user user01
+  Uploading a tar Package
+  Configure user environment variables
+  Test database environment
+  Note: For this application, serverid 0001 clientid1111 is the default
+  Startup server
+  Shut down the server
+  View the system shared memory
 
   3.2.4 Deploying the SecMngClient
-    3.2.4.1 Deploying SecMngClient in Windows
-        Guarantee win host and linux server network normally
-    3.2.4.2 Deploying the SecMngClient in linux
-        Guarantee win host and linux server network normally
+  
+  3.2.4.1 Deploying SecMngClient in Windows
+  
+  Guarantee win host and linux server network normally
+  
+  3.2.4.2 Deploying the SecMngClient in linux
+  
+  Guarantee win host and linux server network normally
+  
   3.2.5 Deploying External Ports
-      Example Create user user02
-      Uploading a tar Package
-      Configure user environment variables
-      Test database environment
-      Note: For this application, serverid 0001 clientid1111 is the default
-      Testing the outgoing interface
-      View the system shared memory
+  
+  Example Create user user02
+  Uploading a tar Package
+  Configure user environment variables
+  Test database environment
+  Note: For this application, serverid 0001 clientid1111 is the default
+  Testing the outgoing interface
+  View the system shared memory
 
 
 
