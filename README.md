@@ -5,5 +5,6 @@ Complex to say: to solve the security key distribution, high concurrency cryptog
 
 2. Secure transmission platform scheme
    2.1 Scheme Deployment Principles
+   
    <img width="380" alt="image" src="https://github.com/user-attachments/assets/a0d4c226-20be-4190-a9ff-ffc564c9bbeb" />
 
